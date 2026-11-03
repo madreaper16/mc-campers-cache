@@ -1,0 +1,11 @@
+{
+  "storehouseOres": {
+    "weights": {
+      "minecraft:deepslate_iron_ore": 14,
+      "minecraft:deepslate_coal_ore": 13,
+      "minecraft:deepslate_copper_ore": 13,
+      "minecraft:deepslate_diamond_ore": 30,
+      "minecraft:deepslate_emerald_ore": 30
+    }
+  }
+}

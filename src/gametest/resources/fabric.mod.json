@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "campers_cache_tests",
+  "version": "1.0.0",
+  "name": "Camper's Cache gameplay tests",
+  "environment": "*",
+  "entrypoints": {"fabric-gametest": ["com.madreaper16.camperscache.CamperGameTests", "com.madreaper16.camperscache.LayoutGameTests", "com.madreaper16.camperscache.LootGameTests", "com.madreaper16.camperscache.ConfigGameTests"]}
+}

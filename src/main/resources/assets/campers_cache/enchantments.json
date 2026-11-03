@@ -1,0 +1,1061 @@
+{
+  "minecraft:bane_of_arthropods": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:mace"
+    ],
+    "max": 5,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:feather_falling": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots"
+    ],
+    "max": 4,
+    "exclusive": []
+  },
+  "minecraft:blast_protection": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:infinity": {
+    "items": [
+      "minecraft:bow"
+    ],
+    "max": 1,
+    "exclusive": [
+      "minecraft:infinity",
+      "minecraft:mending"
+    ]
+  },
+  "minecraft:silk_touch": {
+    "items": [
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe"
+    ],
+    "max": 1,
+    "exclusive": [
+      "minecraft:fortune",
+      "minecraft:silk_touch"
+    ]
+  },
+  "minecraft:density": {
+    "items": [
+      "minecraft:mace"
+    ],
+    "max": 5,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:thorns": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:quick_charge": {
+    "items": [
+      "minecraft:crossbow"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:binding_curse": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet",
+      "minecraft:elytra",
+      "minecraft:player_head",
+      "minecraft:creeper_head",
+      "minecraft:zombie_head",
+      "minecraft:skeleton_skull",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:dragon_head",
+      "minecraft:piglin_head",
+      "minecraft:carved_pumpkin"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:smite": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:mace"
+    ],
+    "max": 5,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:punch": {
+    "items": [
+      "minecraft:bow"
+    ],
+    "max": 2,
+    "exclusive": []
+  },
+  "minecraft:swift_sneak": {
+    "items": [
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:sweeping_edge": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:wind_burst": {
+    "items": [
+      "minecraft:mace"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:depth_strider": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots"
+    ],
+    "max": 3,
+    "exclusive": [
+      "minecraft:frost_walker",
+      "minecraft:depth_strider"
+    ]
+  },
+  "minecraft:knockback": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear"
+    ],
+    "max": 2,
+    "exclusive": []
+  },
+  "minecraft:unbreaking": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet",
+      "minecraft:elytra",
+      "minecraft:shield",
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe",
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:trident",
+      "minecraft:flint_and_steel",
+      "minecraft:shears",
+      "minecraft:brush",
+      "minecraft:fishing_rod",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:mace",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:luck_of_the_sea": {
+    "items": [
+      "minecraft:fishing_rod"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:soul_speed": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:mending": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet",
+      "minecraft:elytra",
+      "minecraft:shield",
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe",
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:trident",
+      "minecraft:flint_and_steel",
+      "minecraft:shears",
+      "minecraft:brush",
+      "minecraft:fishing_rod",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:mace",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:fire_aspect": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear",
+      "minecraft:mace"
+    ],
+    "max": 2,
+    "exclusive": []
+  },
+  "minecraft:efficiency": {
+    "items": [
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe",
+      "minecraft:shears"
+    ],
+    "max": 5,
+    "exclusive": []
+  },
+  "minecraft:breach": {
+    "items": [
+      "minecraft:mace"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:channeling": {
+    "items": [
+      "minecraft:trident"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:flame": {
+    "items": [
+      "minecraft:bow"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:riptide": {
+    "items": [
+      "minecraft:trident"
+    ],
+    "max": 3,
+    "exclusive": [
+      "minecraft:loyalty",
+      "minecraft:channeling"
+    ]
+  },
+  "minecraft:lure": {
+    "items": [
+      "minecraft:fishing_rod"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:projectile_protection": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:frost_walker": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots"
+    ],
+    "max": 2,
+    "exclusive": [
+      "minecraft:frost_walker",
+      "minecraft:depth_strider"
+    ]
+  },
+  "minecraft:vanishing_curse": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet",
+      "minecraft:elytra",
+      "minecraft:shield",
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe",
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:trident",
+      "minecraft:flint_and_steel",
+      "minecraft:shears",
+      "minecraft:brush",
+      "minecraft:fishing_rod",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:mace",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear",
+      "minecraft:compass",
+      "minecraft:carved_pumpkin",
+      "minecraft:player_head",
+      "minecraft:creeper_head",
+      "minecraft:zombie_head",
+      "minecraft:skeleton_skull",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:dragon_head",
+      "minecraft:piglin_head"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:loyalty": {
+    "items": [
+      "minecraft:trident"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:protection": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:impaling": {
+    "items": [
+      "minecraft:trident"
+    ],
+    "max": 5,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:sharpness": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear",
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe"
+    ],
+    "max": 5,
+    "exclusive": [
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods",
+      "minecraft:impaling",
+      "minecraft:density",
+      "minecraft:breach"
+    ]
+  },
+  "minecraft:power": {
+    "items": [
+      "minecraft:bow"
+    ],
+    "max": 5,
+    "exclusive": []
+  },
+  "minecraft:lunge": {
+    "items": [
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:looting": {
+    "items": [
+      "minecraft:diamond_sword",
+      "minecraft:stone_sword",
+      "minecraft:golden_sword",
+      "minecraft:netherite_sword",
+      "minecraft:wooden_sword",
+      "minecraft:iron_sword",
+      "minecraft:copper_sword",
+      "minecraft:diamond_spear",
+      "minecraft:stone_spear",
+      "minecraft:golden_spear",
+      "minecraft:netherite_spear",
+      "minecraft:wooden_spear",
+      "minecraft:iron_spear",
+      "minecraft:copper_spear"
+    ],
+    "max": 3,
+    "exclusive": []
+  },
+  "minecraft:piercing": {
+    "items": [
+      "minecraft:crossbow"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:multishot",
+      "minecraft:piercing"
+    ]
+  },
+  "minecraft:aqua_affinity": {
+    "items": [
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 1,
+    "exclusive": []
+  },
+  "minecraft:fortune": {
+    "items": [
+      "minecraft:diamond_axe",
+      "minecraft:stone_axe",
+      "minecraft:golden_axe",
+      "minecraft:netherite_axe",
+      "minecraft:wooden_axe",
+      "minecraft:iron_axe",
+      "minecraft:copper_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:wooden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:copper_hoe"
+    ],
+    "max": 3,
+    "exclusive": [
+      "minecraft:fortune",
+      "minecraft:silk_touch"
+    ]
+  },
+  "minecraft:multishot": {
+    "items": [
+      "minecraft:crossbow"
+    ],
+    "max": 1,
+    "exclusive": [
+      "minecraft:multishot",
+      "minecraft:piercing"
+    ]
+  },
+  "minecraft:fire_protection": {
+    "items": [
+      "minecraft:leather_boots",
+      "minecraft:copper_boots",
+      "minecraft:chainmail_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots",
+      "minecraft:netherite_boots",
+      "minecraft:leather_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:netherite_leggings",
+      "minecraft:leather_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:chainmail_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 4,
+    "exclusive": [
+      "minecraft:protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection"
+    ]
+  },
+  "minecraft:respiration": {
+    "items": [
+      "minecraft:leather_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:chainmail_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "max": 3,
+    "exclusive": []
+  }
+}

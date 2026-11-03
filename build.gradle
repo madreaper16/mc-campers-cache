@@ -1,0 +1,72 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.16.2'
+}
+
+version = project.mod_version
+group = 'com.madreaper16'
+base { archivesName = 'campers-cache' }
+
+loom {
+    splitEnvironmentSourceSets()
+    mods {
+        campers_cache {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    compileOnly 'com.terraformersmc:modmenu:21.0.0'
+}
+
+repositories { maven { url = 'https://maven.terraformersmc.com/releases' } }
+
+// Require Mod Menu on clients while keeping the common mod usable on servers.
+def modMenuRequirementJar = tasks.register('modMenuRequirementJar', Jar) {
+    archiveFileName = 'campers-cache-configuration.jar'
+    destinationDirectory = layout.buildDirectory.dir('configuration-module')
+    from('src/modmenuRequirement') { expand(version: project.version) }
+    from('LICENSE')
+    inputs.property 'version', project.version
+}
+
+processResources {
+    dependsOn 'generateWorldgen'
+    dependsOn modMenuRequirementJar
+    from(modMenuRequirementJar.flatMap { it.archiveFile }) { into 'META-INF/jars' }
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand(version: project.version) }
+}
+
+tasks.register('generateWorldgen', Exec) {
+    inputs.files(fileTree('design/templates'), 'design/structures.json', 'config/defaults.json', 'tools/build-spawn-test.cjs', 'tools/loot-tables.cjs', 'tools/config-defaults.cjs')
+    outputs.dir(layout.buildDirectory.dir('generated/worldgen'))
+    commandLine 'node', 'tools/build-spawn-test.cjs', '--mod'
+}
+sourceSets.main.resources.srcDir(layout.buildDirectory.dir('generated/worldgen'))
+
+tasks.withType(JavaCompile).configureEach { options.release = 25 }
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+    withSourcesJar()
+}
+tasks.named('jar') { from('LICENSE') }
+tasks.named('sourcesJar') {
+    dependsOn 'generateWorldgen'
+    from('LICENSE')
+}
+
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'campers_cache_tests'
+        enableGameTests = true
+        enableClientGameTests = false
+        eula = true
+    }
+}

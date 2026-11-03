@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "campers_cache_configuration",
+  "version": "${version}",
+  "name": "Camper's Cache Configuration",
+  "authors": ["MadReaper16"],
+  "license": "MIT",
+  "environment": "client",
+  "depends": {
+    "campers_cache": "*",
+    "modmenu": ">=21.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "campers_cache",
+      "badges": ["library"]
+    }
+  }
+}

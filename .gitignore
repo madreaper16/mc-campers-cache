@@ -1,0 +1,11 @@
+.gradle/
+build/
+run/
+dist/
+logs/
+.idea/
+*.iml
+*.class
+design/world-inspection.json
+testing/*
+!testing/ValidatePack.java

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "campers_cache",
+  "version": "${version}",
+  "name": "Camper's Cache",
+  "description": "Wilderness camps, guarded caches, and Campers who don't like thieves.",
+  "authors": ["MadReaper16"],
+  "license": "MIT",
+  "contact": {
+    "sources": "https://github.com/madreaper16/mc-campers-cache",
+    "issues": "https://github.com/madreaper16/mc-campers-cache/issues"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.madreaper16.camperscache.CampersCache"],
+    "client": ["com.madreaper16.camperscache.client.CampersCacheClient"],
+    "modmenu": ["com.madreaper16.camperscache.client.ModMenuIntegration"]
+  },
+  "mixins": ["campers_cache.mixins.json"],
+  "jars": [{"file":"META-INF/jars/campers-cache-configuration.jar"}],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
