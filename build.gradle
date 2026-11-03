@@ -56,6 +56,12 @@ java {
     withSourcesJar()
 }
 tasks.named('jar') { from('LICENSE') }
+
+tasks.register('prepareRelease', Copy) {
+    dependsOn tasks.named('jar')
+    from(tasks.named('jar').flatMap { it.archiveFile })
+    into(layout.projectDirectory.dir('release'))
+}
 tasks.named('sourcesJar') {
     dependsOn 'generateWorldgen'
     from('LICENSE')

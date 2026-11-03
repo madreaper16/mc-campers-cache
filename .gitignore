@@ -1,5 +1,6 @@
 .gradle/
 build/
+release/
 run/
 dist/
 logs/

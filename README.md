@@ -42,7 +42,7 @@ Use Java 25, Node.js, and Gradle 9.5:
 gradle build
 ```
 
-The build runs the game tests and creates the mod JAR in `build/libs`. The structure templates are included; the original design world is not needed to build. See [testing](TESTING.md) and [structure notes](design/README.md).
+The build runs the game tests and creates the mod JAR in `build/libs`. Run `gradle build prepareRelease` to copy the upload JAR to `release`. The structure templates are included; the original design world is not needed to build. See [testing](TESTING.md) and [structure notes](design/README.md).
 
 ## Links and license
 
